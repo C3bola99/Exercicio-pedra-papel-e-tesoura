@@ -88,9 +88,9 @@ while(true){
     else if (jogador1 == "tesoura") {
         if (jogador2 == "pedra") {
             alert ("Pedra quebra tesoura");
-        } else if (jogador2 == papel){
+        } else if (jogador2 == "papel"){
             alert ("tesoura corta papel");
-        } else if (jogadoe2 == "tesoura") {
+        } else if (jogador2 == "tesoura") {
             alert ("Empate");
         }
     }
